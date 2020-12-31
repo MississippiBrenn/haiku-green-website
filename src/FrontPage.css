@@ -1,14 +1,31 @@
 .FrontPage{
-    background-image: url(./images/leaf.png)
+  background-image: url(./images/PatreonHeaderRightAligned.png);
+  font-family: Georgia;
+  text-align: center;
+  height: 400px
+}
+
+.FrontPageBody {
+  flex-direction: row;
 }
 
 .Title {
+  color: lime;
 }
 
-.FrontPageImage {
-  position: left;
- size: 400px
+.SubTitle{
+  color:mediumseagreen;
 }
+
+.FrontPageText {
+  text-align: center; 
+  
+}
+.subscribe {
+  color: bisque;
+}
+
+
 
 
 
