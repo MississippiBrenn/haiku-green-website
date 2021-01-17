@@ -1,46 +1,25 @@
 {
-  "name": "haiku-green-website",
-  "version": "0.1.0",
-  "homepage": "http://MississippiBrenn.github.io/haiku-green-website",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "moment": "^2.29.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
+  "name": "haiku-green-api",
+  "version": "1.0.0",
+  "description": "API for Mailchimp submission",
+  "main": "server.js",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MississippiBrenn/haiku-green-website.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Mississippi Brennan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MississippiBrenn/haiku-green-website/issues"
   },
-  "devDependencies": {
-    "gh-pages": "^3.1.0",
-    "html-loader": "^1.3.2"
+  "homepage": "https://github.com/MississippiBrenn/haiku-green-website#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mailchimp-api-v3": "^1.14.0"
   }
 }
