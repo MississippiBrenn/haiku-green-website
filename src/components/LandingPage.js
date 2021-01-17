@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../styles/LandingPage.css';
 import Countdown from './Countdown';
+import Subscribe from './Subscribe';
 import  Logo  from './Logo';
 import { Title } from './Title';
 import { Description } from './Description';
@@ -20,6 +21,10 @@ class LandingPage extends Component {
     },
     description: {
       text: "A Mississippi Brennan LLC"
+    },
+    subscribe:{
+      placeholder: "Enter Email Address",
+      buttonText: "Submit"
     }
   }
   
@@ -27,7 +32,8 @@ class LandingPage extends Component {
     const {
       logo,
       title, 
-      description
+      description,
+      subscribe
     } = this.state;
 
   return (
@@ -36,7 +42,7 @@ class LandingPage extends Component {
     <Logo alt={logo.alt} src={logo.src}/>
     <Title text={title.text} />
     <Description text={description.text}/>
-      
+     <Subscribe placeholder={subscribe.placeholder} buttonText={subscribe.buttonText}/>s 
     </div>
   )};
 }
