@@ -1,8 +1,17 @@
-Tutorials used 
+Tutorials used
+
+Heavily borrowed from Coding From Null  - React Coming Soon
+https://www.youtube.com/watch?v=15yson6loaA&list=PLkXKwwlw4AdPUJxIkVEepQJC42TRtJ9CA&index=7&ab_channel=CodingFromNull
+
 https://www.youtube.com/watch?v=T-Zxw-K0PE8&ab_channel=BenAwad
 
 https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 --added script to top level to include server
+
+Icons 
+https://thenounproject.com
+
+
 
 
 # Getting Started with Create React App
