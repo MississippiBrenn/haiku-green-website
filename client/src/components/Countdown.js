@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-//5:32
+// 5:32
 
 class Countdown extends Component {
     render() {
