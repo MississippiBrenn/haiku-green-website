@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import moment, { duration } from 'moment';
 
 //5:32
 
