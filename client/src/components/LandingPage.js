@@ -42,7 +42,7 @@ class LandingPage extends Component {
     <Logo alt={logo.alt} src={logo.src}/>
     <Title text={title.text} />
     <Description text={description.text}/>
-     <Subscribe placeholder={subscribe.placeholder} buttonText={subscribe.buttonText}/>s 
+     <Subscribe placeholder={subscribe.placeholder} buttonText={subscribe.buttonText}/>
     </div>
   )};
 }
