@@ -6,9 +6,7 @@ import  Logo  from './Logo';
 import { Title } from './Title';
 import { Description } from './Description';
 
-
 import logo from '../images/logoTransparent.png'
-
 
 class LandingPage extends Component {
   state = {
