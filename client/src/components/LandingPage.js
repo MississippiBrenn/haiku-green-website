@@ -63,7 +63,7 @@ class LandingPage extends Component {
       setTimeout(() => {
         notification.visible = false;
         this.setState({ notification });
-      }, 3000)
+      }, 300)
     });
   };
 
